@@ -20,3 +20,52 @@ body {
     color: var(--text-dark);
     padding: 0 5%;
 }
+
+/* ================= HEADER ================= */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700px;
+    letter-spacing: -0.5px;
+}
+
+.logo span {
+    font-weight: 800;
+}
+
+.nav-links {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--text-muted);
+    font-size: 15px;
+    font-weight: 500px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: var(--text-dark);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-signup {
+    background-color: var(--btn-dark);
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 22px;
+    border-radius: 14px;
+    font-weight: 500;
+    transition: opacity 0,3s;
+}
+
