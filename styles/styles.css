@@ -1,0 +1,22 @@
+/* RESET BASICO Y VARIABLES */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #f6f3ee; /*Color de fondo*/
+    --card-bg: #eae3d9; /*Fondo de la barra de busqueda */
+    --text-dark: #1b1c1e;
+    --text-muted: #666666;
+    --btn-dark: #27282b;
+    --font-main: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: var(--font-main);
+    background-color: var(__bg_color);
+    color: var(--text-dark);
+    padding: 0 5%;
+}
