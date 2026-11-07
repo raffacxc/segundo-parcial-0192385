@@ -307,3 +307,97 @@ body {
   cursor: pointer;
   box-shadow: 0px 10px 20px rgba(245, 56, 56, 0.35);
 }
+
+/* Network Section */
+.network {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.map-container img {
+  width: 100%;
+  margin: 40px 0;
+}
+
+.sponsors {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.sponsors img {
+  max-width: 100%;
+  height: auto;
+  opacity: 0.6;
+}
+
+/* Testimonials Section */
+.testimonials {
+  padding: 80px 20px;
+}
+
+.testimonial-cards {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding-bottom: 20px;
+}
+
+.testimonial-card {
+  border: 2px solid var(--border-color);
+  border-radius: 10px;
+  padding: 30px;
+  min-width: 350px;
+  background: #FFFFFF;
+}
+
+.testimonial-card.active {
+  border-color: var(--primary-color);
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.user-info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.rating {
+  margin-left: auto;
+  color: var(--text-dark);
+  font-weight: 700;
+}
+
+.rating .star {
+  color: #fea250; /* Gold color for the star */
+  margin-left: 5px;
+}
+
+/* CTA Section */
+.cta {
+  margin-top: 50px;
+  position: relative;
+  z-index: 2;
+}
+
+.cta-box {
+  background: #FFFFFF;
+  box-shadow: 0px 20px 40px rgba(13, 16, 37, 0.05);
+  border-radius: 10px;
+  padding: 50px 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-box h2 {
+  font-size: 35px;
+  color: var(--text-dark);
+  max-width: 400px;
+}
