@@ -401,3 +401,148 @@ body {
   color: var(--text-dark);
   max-width: 400px;
 }
+
+/* Controles de testimonios */
+.testimonial-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+  padding: 0 10px;
+}
+
+/* Puntos de paginación */
+.dots {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.dot {
+  width: 15px;
+  height: 15px;
+  background-color: #DDE0E4;
+  border-radius: 50%;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.dot.active {
+  width: 45px;
+  height: 15px;
+  background-color: #F53838;
+  border-radius: 10px;
+}
+
+/* Botones con Flechas */
+.arrows {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-arrow {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #F53838;
+  background-color: #FFFFFF;
+  color: #F53838;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.btn-arrow.active,
+.btn-arrow:hover {
+  background-color: #F53838;
+  color: #FFFFFF;
+  box-shadow: 0 10px 20px rgba(245, 56, 56, 0.35);
+}
+
+/* Footer */
+.footer {
+  background-color: var(--bg-light);
+  padding: 120px 0 40px 0;
+  margin-top: -80px;
+  position: relative;
+  z-index: 1;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-brand {
+  max-width: 340px;
+}
+
+.footer-brand p {
+  margin-top: 20px;
+}
+
+.footer-brand .copyright {
+  color: #AFB5C0;
+  margin-top: 30px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 80px;
+}
+
+.footer-links h4 {
+  color: var(--text-dark);
+  margin-bottom: 20px;
+}
+
+.footer-links ul {
+  list-style: none;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: var(--text-gray);
+  line-height: 2;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: var(--primary-color);
+}
+
+/* Íconos de redes sociales (archivos PNG) */
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.social-icon {
+  width: 35px;
+  height: 35px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  text-decoration: none;
+}
+
+.social-icon img {
+  width: 16px !important;
+  height: 16px !important;
+  object-fit: contain;
+  display: block;
+}
+
+.social-icon:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(245, 56, 56, 0.25);
+}
